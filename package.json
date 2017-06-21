@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/bobbyearl/dadjoke#readme",
   "dependencies": {
-    "request": "2.81.0"
+    "request": "2.81.0",
+    "update-notifier": "2.2.0"
   }
 }

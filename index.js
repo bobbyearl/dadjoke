@@ -2,6 +2,9 @@
 'use strict';
 
 const request = require('request');
+const updateNotifier = require('update-notifier');
+
+const pkg = require('./package.json');
 const options = {
   url: 'https://icanhazdadjoke.com/',
   headers: {
@@ -23,4 +26,5 @@ function callback(error, response, body) {
   console.log("\n" + message + "\n");
 }
 
+updateNotifier({pkg}).notify();
 request(options, callback);
