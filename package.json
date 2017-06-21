@@ -1,0 +1,26 @@
+{
+  "name": "dadjoke",
+  "version": "1.0.0",
+  "description": "Node CLI for https://icanhazdadjoke.com/",
+  "bin": {
+    "dadjoke": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyearl/dadjoke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyearl/dadjoke/issues"
+  },
+  "homepage": "https://github.com/bobbyearl/dadjoke#readme",
+  "dependencies": {
+    "request": "2.81.0"
+  }
+}
