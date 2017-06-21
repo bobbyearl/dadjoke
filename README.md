@@ -4,8 +4,6 @@
 
 Node CLI for https://icanhazdadjoke.com/
 
-[![npm](https://img.shields.io/npm/v/@blackbaud/skyux-builder.svg)
-
 ## Usage
 
 - `npm install -g dadjoke`
