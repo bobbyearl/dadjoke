@@ -8,4 +8,4 @@ Node CLI for https://icanhazdadjoke.com/
 
 - `npm install -g dadjoke`
 - `dadjoke`
-- Laugh
+- Laugh.  Even better if you use OSX, `dadjoke | say`
